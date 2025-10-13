@@ -1,6 +1,6 @@
 package io.github.theca.utils;
-public class PrimitivosFloat {
 
+public class PrimitivosFloat {
 public static void main(String[] args) {
 
         // === Tipo primitivo float en Java ===

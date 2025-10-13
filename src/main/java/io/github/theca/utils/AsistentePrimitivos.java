@@ -1,5 +1,3 @@
-package io.github.theca.utils;
-
 import java.util.Scanner;
 
 

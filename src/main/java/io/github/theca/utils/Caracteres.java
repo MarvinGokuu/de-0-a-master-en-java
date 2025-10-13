@@ -1,5 +1,4 @@
-package io.github.theca.utils;
-    public class Caracteres {
+public class Caracteres {
     public static void main(String[] args) {
         char letraA = 'A';
         char letraB = 66; // Código ASCII para 'B'
@@ -10,5 +9,4 @@ package io.github.theca.utils;
         System.out.println("Letra B (ASCII 66): " + letraB);
         System.out.println("Letra C (Unicode \\u0043): " + letraC);
     }
-
 }
