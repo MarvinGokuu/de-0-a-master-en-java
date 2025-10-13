@@ -4,6 +4,8 @@ public class Primitivos {
     public static void main(String[] args) {
 
         // === Tipos primitivos en Java ===
+        //  empezamos con los tipos numéricos ===
+        
         byte numByte = 127;
         short numShort = 32767;
         int numInt = 10;
