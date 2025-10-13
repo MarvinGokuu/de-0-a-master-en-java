@@ -1,3 +1,4 @@
+package io.github.theca.utils;
     public class Caracteres {
     public static void main(String[] args) {
         char letraA = 'A';

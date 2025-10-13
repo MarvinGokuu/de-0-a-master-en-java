@@ -1,7 +1,10 @@
+package io.github.theca.utils;
+
+import java.util.Scanner;
 
 
-public class Main {
-    public static void main(String[] args) {/* 
+public class AsistentePrimitivos {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("=== ASISTENTE DE TIPOS PRIMITIVOS EN JAVA ===");
         System.out.print("👉 Ingresa un valor: ");
@@ -49,7 +52,7 @@ public class Main {
             }
         }
 
-        scanner.close(); */
+        scanner.close();
 
 
     }

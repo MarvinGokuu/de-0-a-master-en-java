@@ -1,22 +1,3 @@
-/* package io.github.jiangdequan;
-
-public class Primitivos {
-public static void main(String[] args) {
-        // tipos primitivos en Java
-        byte numeroByte = 7;
-        int numeroEntero = 10;          // entero
-        double numeroDecimal = 10.5;    // decimal
-        char caracter = 'A';            // carácter
-        boolean esVerdadero = true;     // booleano
-
-        // imprimimos en consola
-        System.out.println("numeroByte = " + numeroByte);
-        System.out.println("Número Entero: " + numeroEntero);
-        System.out.println("Número Decimal: " + numeroDecimal);
-        System.out.println("Carácter: " + caracter);
-        System.out.println("Es Verdadero: " + esVerdadero);
-    }
-}*/
 package io.github.theca.utils;
 
 
