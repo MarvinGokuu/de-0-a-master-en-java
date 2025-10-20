@@ -2,3 +2,5 @@
 *.class
 *.log
 *.tmp
+.output/
+*.class
