@@ -8,7 +8,7 @@ public class sistemaNumerico3 {
         String numeroHexadecimal = "";
         boolean valido = false;
 
-        // Bucle para solicitar un número válido
+        // 1. Bucle para solicitar un número válido
         while (!valido) {
             try {
                 String entrada = JOptionPane.showInputDialog("Digite un número:");
@@ -27,7 +27,7 @@ public class sistemaNumerico3 {
         }
 
         try {
-            // Convertir el número a diferentes sistemas numéricos
+        // 2. Convertir el número a diferentes sistemas numéricos
             numeroBinario = Integer.toBinaryString(numero);
             numeroOctal = Integer.toOctalString(numero);
             numeroHexadecimal = Integer.toHexString(numero).toUpperCase();
@@ -39,7 +39,7 @@ public class sistemaNumerico3 {
             return;
         }
 
-        // Crear el mensaje con formato
+        // 3. Crear el mensaje con formato
         String resultado = """
                 ╔════════════════════════════════════╗
                     CONVERSIÓN DE SISTEMAS NUMÉRICOS
@@ -52,7 +52,7 @@ public class sistemaNumerico3 {
                 ➤ Hexadecimal   = %s
                 """.formatted(numero, numeroBinario, numeroOctal, numeroHexadecimal);
 
-        // Mostrar resultados en un cuadro informativo
+        // 4. Mostrar resultados en un cuadro informativo
         JOptionPane.showMessageDialog(
                 null,
                 resultado,

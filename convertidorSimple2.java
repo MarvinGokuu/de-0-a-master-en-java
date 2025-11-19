@@ -1,23 +1,24 @@
 import javax.swing.JOptionPane;
-public class sistemaNumerico2 {
-public static void main (String[]args) {
-int numero = Integer.parseInt(JOptionPane.showInputDialog("Digite un número: "));
-        // Convertir el número a diferentes sistemas numéricos
-        String numeroBinario = Integer.toBinaryString(numero);
-        String numeroOctal = Integer.toOctalString(numero);
-        String numeroHexadecimal = Integer.toHexString(numero);
-        // Mostrar los resultados
-        String resultado = "\nNúmero Binario " + "             = " + numeroBinario +
-                        "\nNúmero Octal " + "                = " + numeroOctal +
-                        "\nNúmero Hexadecimal " + "          = " + numeroHexadecimal;
-        // Mostrar resultados en un cuadro de diálogo informativo
-        JOptionPane.showMessageDialog(null,"El número " + numero + " en otros sistemas numéricos es: " + resultado);
-}
+
+public class convertidorSimple2 {
+
+    public static void main(String[] args) {
+
+        System.out.print("Ingrese un número entero: ");
+        String nEntrada = JOptionPane.showInputDialog("Ingrese un número entero: ");
+
+        try {
+            int numeroPrimitivo = Integer.parseInt(nEntrada); // String -> int
+            JOptionPane.showMessageDialog(null, "El número primitivo es: " + numeroPrimitivo);
+        } catch (NumberFormatException e) {
+            JOptionPane.showMessageDialog(null, "Entrada inválida: Debes escribir un número entero.");
+        }
+    }
 }
 // paso 1: importar la librería
 //import javax.swing.JOptionPane;
 //paso 2: usar la librería
-//tipo dato variable = Integer.parseInt(JOptionPane.showInputDialog("mensaje "));
+//tipo dato + variable = + metodo Integer.parseInt(JOptionPane.showInputDialog("mensaje "));
 //String nEntrada = Integer.parseInt(JOptionPane.showInputDialog("mensaje "));
 //paso 3: mostrar mensaje
 //JOptionPane.showMessageDialog(null, "mensaje");
