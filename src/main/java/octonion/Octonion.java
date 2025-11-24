@@ -1,7 +1,5 @@
 package octonion;
 
-import java.util.Arrays;
-
 public class Octonion {
     // componentes: a0 + a1*e1 + ... + a7*e7
     public final double a0, a1, a2, a3, a4, a5, a6, a7;
