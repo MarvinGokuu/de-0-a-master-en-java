@@ -1,4 +1,6 @@
-public class HolaMundo {
+
+
+public class HolaMundo1 {
 
     public static void mostrarSaludo() throws InterruptedException {
         String saludar = "Hola Mundo desde Java!";

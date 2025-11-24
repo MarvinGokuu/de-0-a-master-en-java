@@ -1,5 +1,5 @@
 public class ConversionesCompletas {
-// programa de conversion de tipos de datos en Java
+    // programa de conversion de tipos de datos en Java
     public static void main(String[] args) {
 
         // Valores iniciales

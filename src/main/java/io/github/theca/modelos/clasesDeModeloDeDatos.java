@@ -1,5 +1,5 @@
 
-package src.main.java.io.github.theca.modelos;
+package io.github.theca.modelos;
 
 public class clasesDeModeloDeDatos {
     private String nombre;
@@ -18,18 +18,3 @@ public class clasesDeModeloDeDatos {
         return edad;
     }
 }
-
-
-    public clasesDeModeloDeDatos(String nombre, int edad) {
-        this.nombre = nombre;
-        this.edad = edad;
-    }
-
-    public String getNombre() {
-        return nombre;
-    }
-
-    public int getEdad() {
-        return edad;
-    }
-

@@ -2,7 +2,7 @@ package io.github.theca.comandos;
 
 import java.util.Scanner;
 
-public class Main {
+public class saludito {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("=== CONSOLA INTERACTIVA ===");
@@ -17,7 +17,7 @@ public class Main {
                     SaludoCommand.ejecutar();
                     break;
                 case "salir":
-                    System.out.println("👋 Saliendo...");
+                    System.out.println(" Saliendo...");
                     return;
                 default:
                     System.out.println("Comando no reconocido.");
